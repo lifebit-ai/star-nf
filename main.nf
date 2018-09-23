@@ -23,7 +23,7 @@ process getSRAIDs {
 	
 	script:
 	"""
-	esearch -db sra -query $projectID  | efetch --format runinfo | grep SRR | cut -d ',' -f 1 | head -n 1 > sra.txt
+	esearch -db sra -query $projectID  | efetch --format runinfo | grep SRR | cut -d ',' -f 1 > sra.txt
 	"""
 }
 
