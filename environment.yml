@@ -1,0 +1,15 @@
+name: star-nf
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - sra-tools=2.9.1
+  - entrez-direct=7.70
+  - star=2.6.1a
+  - parallel-fastq-dump=0.6.3
+  - samtools=1.9
+  - bioconductor-biocinstaller=1.28.0
+  - r-base=3.4.1
+  - readline=6.2
+  - bioconductor-rsubread=1.28.0
