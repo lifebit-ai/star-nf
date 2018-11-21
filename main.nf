@@ -1,6 +1,6 @@
 params.star_index = "s3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg19/Sequence/STARIndex/"
 //params.star_index = "$baseDir/star/"
-params.project = "SRP115256"
+params.project = "SRP033351"
 
 params.resultdir = 'results'
 
